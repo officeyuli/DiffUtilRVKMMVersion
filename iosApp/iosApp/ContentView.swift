@@ -3,9 +3,10 @@ import shared
 
 struct ContentView: View {
     let greet = Greeting().greeting()
-    
+    let employee : Array<Employee> = EmployeeUseCase().getEmployeeListSortedByRole()
     var body: some View {
-        Text(greet)
+        Text((employee[0].name ?? "").isEmpty ? "" : employee[0].name!)
+
     }
 }
 

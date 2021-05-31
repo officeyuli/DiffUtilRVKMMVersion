@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.yuli.diffutilrvkmm.models.Employee
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import com.yuli.diffutilrvkmm.usecase.EmployeeUseCase
+import com.yuli.diffutilrvkmm.EmployeeUseCase
 
 
 class MainViewModel : ViewModel() {

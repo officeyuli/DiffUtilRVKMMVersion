@@ -5,8 +5,22 @@ struct ContentView: View {
     let greet = Greeting().greeting()
     let employee : Array<Employee> = EmployeeUseCase().getEmployeeListSortedByRole()
     var body: some View {
-        Text((employee[0].name ?? "").isEmpty ? "" : employee[0].name!)
-
+        Spacer()
+        ForEach(employee.indices) { index in
+            VStack{
+                Spacer()
+                HStack{
+                    Text((employee[index].name ?? "").isEmpty ? "" : employee[index].name!)
+                    Spacer()
+                    Text(employee[index].role)
+                    Spacer()
+                }
+                Spacer()
+            }
+            
+        }
+        Spacer()
+    
     }
 }
 

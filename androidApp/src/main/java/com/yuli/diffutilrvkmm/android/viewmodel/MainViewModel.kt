@@ -24,7 +24,7 @@ class MainViewModel : ViewModel() {
         }
     }
 
-    fun updateSortType(employeeSortType: EmployeeSortType):Unit{
+    fun updateSortType(employeeSortType: EmployeeSortType){
         this.mEmployeeSortTypeLiveData.value = employeeSortType
     }
 

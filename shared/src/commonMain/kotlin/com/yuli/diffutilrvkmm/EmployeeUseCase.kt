@@ -1,4 +1,4 @@
-package com.yuli.diffutilrvkmm.usecase
+package com.yuli.diffutilrvkmm
 
 import com.yuli.diffutilrvkmm.repo.EmployeeRepository
 import com.yuli.diffutilrvkmm.repo.EmployeeRepositoryImpl

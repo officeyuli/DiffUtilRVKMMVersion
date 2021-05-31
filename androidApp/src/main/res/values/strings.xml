@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiffUtilRVKMM</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_role">Sort by role</string>
+</resources>
